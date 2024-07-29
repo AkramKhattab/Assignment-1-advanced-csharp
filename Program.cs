@@ -39,8 +39,8 @@ namespace Assignment_1_advanced_c_
             Console.WriteLine($"Range length: {intRange.Length()}");
             #endregion
         }
-        #region Helper method to convert array to string
-        static string ArrayToString<T>(T[] array)
+            #region Helper method to convert array to string
+            static string ArrayToString<T>(T[] array)
         {
             if (array == null || array.Length == 0)
                 return string.Empty;
